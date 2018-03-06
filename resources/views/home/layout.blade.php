@@ -13,6 +13,10 @@
                 padding: 50px;
             }
 
+            .navbar-brand {
+                padding-top: 10px;
+            }
+
             div.rules {
                 padding: 30px;
                 width: 900px;
@@ -22,7 +26,7 @@
                 background-color: white;
             }
 
-						div.results {
+			div.results {
                 padding: 30px;
                 width: 900px;
                 margin: auto;
