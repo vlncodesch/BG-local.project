@@ -7,8 +7,10 @@
           <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
           <style media="screen">
             body{
-                background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');
-                padding:50px;
+                background-image: url({{ asset('img/bgrd.jpg') }});
+                background-attachment: fixed;
+                background-size: cover;
+                padding: 50px;
             }
 
             div.rules {
