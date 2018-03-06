@@ -20,6 +20,15 @@
                 background-color: white;
             }
 
+						div.results {
+                padding: 30px;
+                width: 900px;
+                margin: auto;
+                border-radius: 50px 50px 50px 50px;
+                box-shadow: inset 1px 5px 2px silver;
+                background-color: white;
+            }
+
             .navbar-default .navbar-brand{
             	color: #FF6D3B;
             }

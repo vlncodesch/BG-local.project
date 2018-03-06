@@ -83,7 +83,6 @@ Route::get('/reset', function () {
     return view('auth.passwords.email');
 });
 
-
 Route::get('/confirm', function () {
     return view('auth.passwords.reset');
 });
