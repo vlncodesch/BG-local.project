@@ -4,9 +4,9 @@
 
 @section('content')
 
-  <div class="dealers">
-    <video src="https://iframe-video.betgames.tv/dealers.mp4" width="678.500px" autoplay></video>
-
-  </div>
+    <div class="dealers">
+        <a href="https://iframe-video.betgames.tv/dealers.mp4" style="display:block;"
+        id="player"></a>
+    </div>
 
 @endsection

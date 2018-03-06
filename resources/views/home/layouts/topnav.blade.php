@@ -9,7 +9,6 @@
 			</button>
 
 			<a class="navbar-brand" href="{{ url('/home') }}"><img src="{{ asset('img/logo.png' )}}"></a>
-			{{-- <a class="navbar-brand" href="{{ url('/home') }}">Betgames.TV</a> --}}
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->

@@ -99,6 +99,11 @@
                     border-top:0 none;
                 }
             }
+
+            #player {
+                width: 100%;
+                height: 100%;
+            }
     </style>
     </head>
     <body>
@@ -107,6 +112,25 @@
         <div class="content">
             @yield('content')
         </div>
+        <script src="http://releases.flowplayer.org/js/flowplayer-3.2.13.min.js"></script>
+        <script language="JavaScript">
+            flowplayer("player", "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf", {
+                plugins: {
+                pseudo: {
+                url: "flowplayer.pseudostreaming-3.2.13.swf"
+                }
+            },
+
+                // clip properties
+                clip: {
+
+                // our clip uses pseudostreaming
+                provider: 'pseudo',
+
+                url: 'https://iframe-video.betgames.tv/dealers.mp4'
+            }
+        });
+        </script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     </body>
