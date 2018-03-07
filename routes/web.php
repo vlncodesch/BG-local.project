@@ -13,10 +13,6 @@
 
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', function () {
     return view('home.index');
 });
 
@@ -28,12 +24,10 @@ Route::get('/top', function () {
     return view('home.top');
 });
 
-// https://integrations01.betgames.tv/ext/game/bets/robert_local_test_env
 Route::get('/history', function () {
     return view('home.history');
 });
 
-// https://integrations01.betgames.tv/ext/game/results/robert_local_test_env
 Route::get('/results', function () {
     return view('home.results');
 });
@@ -79,10 +73,6 @@ Route::get('/dealers', function () {
         return view('home.layouts.htp.wob_rules');
     });
 
-Route::get('/reset', function () {
-    return view('auth.passwords.email');
-});
-
 Auth::routes();
 
-Route::get('/home2', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
