@@ -4,4 +4,6 @@
 
 @section ('content')
 
+	@include('home.layouts.widget')
+
 @endsection

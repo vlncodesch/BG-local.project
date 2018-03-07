@@ -36,6 +36,16 @@
                 background-color: white;
             }
 
+            div.bg_widget {
+                margin: auto;
+                width: 20%;
+                min-width: 200px;
+                max-width: 336px;
+                float: right;
+                border-style: groove;
+                border-color: black;
+            }
+
             .navbar-default .navbar-brand{
             	color: #FF6D3B;
             }
@@ -117,6 +127,7 @@
         <script language="JavaScript">
             flowplayer("player", "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf", {
                 plugins: {
+                controls: null,
                 pseudo: {
                 url: "flowplayer.pseudostreaming-3.2.13.swf"
                 }
