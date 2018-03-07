@@ -83,10 +83,6 @@ Route::get('/reset', function () {
     return view('auth.passwords.email');
 });
 
-Route::get('/confirm', function () {
-    return view('auth.passwords.reset');
-});
-
 Auth::routes();
 
 Route::get('/home2', 'HomeController@index')->name('home');
